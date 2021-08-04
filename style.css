@@ -9,7 +9,15 @@ body {
 }
 
 .container{
-  background-color: rgb(0, 0, 0, 0.6);
+  background-color: rgb(0, 0, 0,);
+  animation:breathingbg 3s infinite;
+  -webkit-animation: breathingbg 3s infinite;
+  -moz-animation: breathingbg 3s infinite;
+  -o-animation: breathingbg 3s infinite;
+  animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+  -o-animation-direction: alternate;
   width: 100%;
   height: 100%;
  display: flex;
@@ -18,15 +26,60 @@ body {
  justify-content: center;
 }
 
+@keyframes breathingbg {
+  from {background-color: rgb(0, 0, 0, 0.5);}
+  to {background-color: rgb(0, 0, 0, 0);}
+}
+
+@-webkit-keyframes breathingbg {
+  from {background-color: rgb(0, 0, 0, 0.5);}
+  to {background-color: rgb(0, 0, 0, 0);}
+}
+
+@-o-keyframes breathingbg {
+  from {background-color: rgb(0, 0, 0, 0.5);}
+  to {background-color: rgb(0, 0, 0, 0);}
+}
+
+@-moz-keyframes breathingbg {
+  from {background-color: rgb(0, 0, 0, 0.5);}
+  to {background-color: rgb(0, 0, 0, 0);}
+}
+
 .namaku{
   color: white;
-  padding-top: 200px;
+  padding-top: 250px;
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: 'Gowun Dodum';
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+}
+
+.logo{
+  margin: 10px 10px 0px 10px;
+  width: 30px;
+  height: 30px;
+  -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+  filter: invert(100%);
+  transition: 0.3s;
+}
+
+.logo:hover{
+  width: 50px;
+  height: 50px;
 }
 
 @media only screen and (max-device-width: 400px) {
   .namaku {
     font-size: 20px;
+  }
+  .logo{
+    width: 20px;
+    height: 20px;
+  }
+  .logo:hover{
+    width: 40px;
+    height: 40px;
   }
 }
