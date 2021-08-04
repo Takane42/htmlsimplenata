@@ -3,7 +3,7 @@ body {
 }
 
 .background{
-  background-image: url(./men.jpg);
+  background-image: url(./src/men.jpg);
   background-size: cover;
   background-position: center;
 }
