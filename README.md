@@ -1,7 +1,7 @@
 # HTML SIMPLE NATA
 HTML Simple buat Domain natadesu.my.id
 
-Im using Bootstrap as CSS for
+Im using Bootstrap as CSS and [this](https://github.com/shaack/bootstrap-auto-dark-mode/) for auto dark theme
 
 ## Logo Source :
 
