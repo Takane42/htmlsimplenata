@@ -1,0 +1,32 @@
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+.icons {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%; /* Makes the image round */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.icons:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4); /* Circular glowing shadow */
+    transform: scale(1.25); /* Slight zoom effect */
+}
+
+[data-bs-theme="dark"] .icons {
+    filter: invert(1);
+}
+
+[data-bs-theme="dark"] .bg {
+    background-image: url("/src/image/background-pc-dark.jpg");
+}
+
+.bg {
+    background-size: cover;
+    background-position: center;
+    background-image: url("/src/image/background-pc.jpg")
+}

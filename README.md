@@ -1,7 +1,7 @@
 # HTML SIMPLE NATA
 HTML Simple buat Domain natadesu.my.id
 
-Yes im bored
+Im using Bootstrap as CSS for
 
 ## Logo Source :
 
@@ -10,6 +10,5 @@ Yes im bored
 - [Telegram](https://www.pngdownload.id/png-5024mt/)
 - [Email](https://www.freepnglogos.com/images/email-logo-png-1111.html)
 - [Linkedin](https://icon-icons.com/icon/linkedin/59873)
-
 
 Love u All ❤
